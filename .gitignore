@@ -6,6 +6,7 @@ cookbooks/
 vendor/
 error
 log
+yum-pkg
 vm_snapshot.sh
 package.box
 Vagrantfile.org
