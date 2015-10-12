@@ -39,8 +39,8 @@ cookbook 'nginx', '~> 2.7.4'
 cookbook 'unicorn', '~> 2.0.0'
 cookbook 'rbenv', :git => 'git://github.com/fnichol/chef-rbenv.git', :branch => 'v0.7.2'
 cookbook 'ruby_build', '~> 0.8.0'
-cookbook 'mongodb', '~> 0.16.1'
-cookbook 'nodejs' 
+cookbook 'emacs24'
+cookbook 'tmux'
 EOF
 
 bundle exec berks vendor cookbooks
@@ -67,8 +67,8 @@ chef.add_recipe 'git'
 chef.add_recipe 'vim'
 chef.add_recipe 'nginx'
 chef.add_recipe 'unicorn'
-chef.add_recipe 'mongodb'
-chef.add_recipe 'nodejs'
+chef.add_recipe 'emasc24'
+chef.add_recipe 'tmux'
 
 # Ruby2.1.2をインストール
 chef.json = {
