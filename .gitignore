@@ -1,0 +1,13 @@
+.vagrant
+.bundle
+.DS_Store
+share_dir
+cookbooks/
+vendor/
+error
+log
+vm_snapshot.sh
+package.box
+Vagrantfile.org
+Berksfile.lock
+Gemfile.lock
