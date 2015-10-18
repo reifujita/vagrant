@@ -9,3 +9,4 @@ cookbook 'rbenv', :git => 'git://github.com/fnichol/chef-rbenv.git', :branch => 
 cookbook 'ruby_build', '~> 0.8.0'
 cookbook 'emacs24'
 cookbook 'tmux'
+cookbook 'nodejs'
